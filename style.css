@@ -1,0 +1,177 @@
+body{
+    background-color: #f4f4f4;
+    font: 15px/1.5em Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+header{
+    background: #555;
+    color: #f4f4f4;
+    border-bottom: rgb(235, 77, 57) 3px solid;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.dark{
+    background: #555;
+    color: #f4f4f4;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button_1,
+.button{
+    background: rgb(235, 77, 57);
+    color: #f4f4f4;
+    border: none;
+    height: 25px;
+}
+
+header h1{
+    float: left;
+}
+
+header nav{
+    list-style: none;
+    float: right;
+}
+
+header li{
+    display:inline;
+    text-transform: uppercase;  
+    padding: 0 10px 0 10px;
+}
+
+header a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+header span.highlight{
+    color: rgb(235, 77, 57);
+}
+
+header a.current{
+    color: rgb(235, 77, 57);
+}
+
+footer.end{
+    margin-top: 156px;
+}
+
+#showcase{
+    padding: 80px;
+    text-align: center;
+    background: url(/Images/dell-Gi3iUJ1FwxI-unsplash.jpg) no-repeat;
+}
+
+
+#newsletter{
+    background: #555;
+    color: #f4f4f4;
+    padding: 0%;
+    margin: 0%;
+}
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form{
+    float: right;
+    padding: 20px;
+}
+
+#newsletter input[type='email']{
+    height: 20px;
+}
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 15px;
+}
+
+#boxes .box img{
+    width: 90px;
+}
+
+article#main-cols{
+    float: left;
+    width: 65%;
+}
+
+aside#sidebar{
+    float: right;
+    width: 25%;
+    margin-top: 10px;
+}
+
+aside#sidebar .form input,aside#sidebar .form textarea{
+    width: 80%;
+    padding: 5px;
+}
+
+ul#services{
+    padding: 0px;
+}
+
+ul#services li{
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #e6e6e6;
+    border: #ccc solid 1px;
+}
+
+footer{
+    padding: 10px;
+    background: rgb(235, 77, 57);
+    color: #f4f4f4;
+    text-align: center;
+}
+
+/* media queries */
+@media(max-width: 768px){
+    header#main-header,
+    header h1,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-cols,
+    article#main-cols ul,
+    aside#sidebar{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    
+    header h1{
+        padding-left: 15px;
+    }
+
+    #showcase h1{
+        margin-top: 0px;
+    }
+
+    .button_1{
+        display: block;
+        width: 100%;
+    }
+
+}
